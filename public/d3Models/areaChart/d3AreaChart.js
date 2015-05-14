@@ -128,8 +128,7 @@ window.d3AreaChart = (function(root) {
       .attr("class", "title")
       .text(title);
 
-    var areaGroup = svg.append("g")
-      .attr("clip-path", "url(#clip)");
+    var areaGroup = svg.append("g");
 
     var xGroup = svg.append("g")
       .attr("class", "axis x")
